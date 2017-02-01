@@ -1,0 +1,123 @@
+nav {
+  background-color: #92E0E5;
+  margin: 0;
+  padding: 0;
+  height: 45px;
+  border-bottom: 1px solid darkblue;
+}
+ul {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0;
+  float: right;
+  }
+li {
+  color: white;
+  display: inline-block;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+nav li:hover {
+  background: #3F8DA7;
+  color: white;
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  min-width: 1000px;
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  font-size: 30px;
+  margin-top: 0;
+  text-align: center;
+  padding-top: 10px;
+}
+p {
+  text-align: center;
+}
+footer {
+  clear: both;
+  text-align: center;
+  background-color: #3F8DA7;
+  height: 200px;
+  color: white;
+  margin-top: 40px;
+}
+a {
+  margin: 25px;
+}
+div.foot{
+  margin: 35px auto;
+  text-align: center;
+}
+a.top {
+  color: inherit;
+  text-decoration: inherit;
+}
+.articles p {
+  margin-bottom: 40px;
+}
+.articles {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin: 0 10px;
+}
+.dog-img {
+  display: block;
+  margin: auto;
+  padding-top: 0px;
+}
+.park-main {
+  background: url("images/park.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+.circle-border{
+  border-radius: 50%;
+  border: 3px solid #3F8DA7;
+  height: 200px;
+  width: 200px;
+  margin: 25px 0;
+}
+.circle-border-main{
+  background-position: 50%;
+  border-radius: 50%;
+  border: 5px solid #3F8DA7;
+  margin-bottom: 25px;
+}
+.bottom-link {
+  color: white;
+}
+.bottom-link:hover {
+  color: #92E0E5;
+}
+.p_footer {
+  padding-top: 22px
+}
+.btn {
+  background: white;
+  border: 4px solid #3F8DA7;
+  color: #3F8DA7;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 100px;
+  text-align: center;
+}
+.btn:hover {
+  background: #3F8DA7;
+  color: white;
+  padding: 5px 10px;
+}
+.logo {
+  margin-top: 7px;
+  margin-left: 25px;
+  width: 30px;
+}
+.return {
+  margin-top: 30px;
+}
